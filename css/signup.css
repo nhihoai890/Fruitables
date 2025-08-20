@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8bfc4;
+}
+.signup_card{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    margin: auto;
+}
+.btn_signup{
+    background: linear-gradient(to right, #f87171, #fbbf24);
+  border: none;
+  color: white;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}

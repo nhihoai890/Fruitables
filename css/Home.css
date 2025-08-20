@@ -1,5 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8d7da;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+ul {
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #c2185b;
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    margin: 5px 0;
+  }
+
+}
+
+.sidebar a:hover {
+  background-color: #ad1457;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #f48fb1;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.show-table img {
+   height: 150px;
+}
+
+.table-number {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #e91e63;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+.box {
+  display: none;
+}
+.btnback {
+  top: 29px;
+  right: -16px;
+  width: 35px;
+  height: 35px;
+  transform: translate(50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn-pink {
+  background-color: #b84c65;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: #9b3f55;
+}
+
+.img-food{
+  width: 50px;
+  height: 30px;
+}
+
+/* tablet */
+@media screen and (min-width: 741px) {
+
+  .admin {
+    display: flex;
+
+    .sidebar {
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+    }
+  }
+
+}
+
+
+/* mobile */
+@media screen and (max-width: 740px) {
+  .btnback{
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .menu{
+    display: none;
+  }
 }

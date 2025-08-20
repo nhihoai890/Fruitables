@@ -1,0 +1,433 @@
+{
+  "tables": [
+    {
+      "id": "1",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "2",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "3",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "4",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "5",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "6",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "7",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "8",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "9",
+      "customerName": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "10",
+      "customerName": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "11",
+      "customerName": "",
+      "quantity": 0,
+      "status": false
+    },
+    {
+      "id": "12",
+      "customer": "",
+      "quantity": 0,
+      "status": false
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "name": "Hamberger",
+      "price": "39",
+      "image": "https://res.cloudinary.com/dfuw8zfpw/image/upload/v1754970619/vr1oduexakcxfpjw9pbd.jpg"
+    },
+    {
+      "id": "2",
+      "name": "BeefSteak",
+      "price": 129,
+      "image": "/img/BeefSteak.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Dimsum",
+      "price": 79,
+      "image": "/img/dimsum.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Pizza",
+      "price": 90,
+      "image": "/img/pizza.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Pad Thai",
+      "price": 79,
+      "image": "/img/PadThai.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Salad",
+      "price": 50,
+      "image": "/img/Salad.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Fried Chicken",
+      "price": 100,
+      "image": "/img/FriedChicken.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Veg Rice",
+      "price": "99",
+      "image": "https://res.cloudinary.com/dfuw8zfpw/image/upload/v1754970820/tjkeb3a2fi34xndk5nh7.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Noodle",
+      "price": "12",
+      "image": "https://res.cloudinary.com/dfuw8zfpw/image/upload/v1754970764/wfz6otgbclewrplfehoi.webp"
+    },
+    {
+      "id": "10",
+      "name": "Orange Juice",
+      "price": "20",
+      "image": "https://res.cloudinary.com/dfuw8zfpw/image/upload/v1754970504/wv2nudsov7obkcxhhvfv.webp"
+    },
+    {
+      "id": "11",
+      "name": "Coca Cola",
+      "price": "10",
+      "image": "https://res.cloudinary.com/dfuw8zfpw/image/upload/v1754970531/xxriiowcskwpc7cmllcz.webp"
+    },
+    {
+      "id": "12",
+      "name": "Aquafina",
+      "price": "5",
+      "image": "https://res.cloudinary.com/dfuw8zfpw/image/upload/v1754970571/c8yi0qjd4rzphrsldsyt.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "items": [
+        {
+          "idFood": "1",
+          "quantity": 6
+        },
+        {
+          "idFood": "2",
+          "quantity": 5
+        },
+        {
+          "idFood": "3",
+          "quantity": 3
+        },
+        {
+          "idFood": "4",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "items": [
+        {
+          "idFood": "1",
+          "quantity": "2"
+        },
+        {
+          "idFood": "3",
+          "quantity": "2"
+        },
+        {
+          "idFood": "5",
+          "quantity": "2"
+        },
+        {
+          "idFood": "6",
+          "quantity": "3"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "items": [
+        {
+          "idFood": "1",
+          "quantity": "3"
+        },
+        {
+          "idFood": "4",
+          "quantity": "2"
+        },
+        {
+          "idFood": "7",
+          "quantity": "3"
+        },
+        {
+          "idFood": "8",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "items": [
+        {
+          "idFood": "3",
+          "quantity": "3"
+        },
+        {
+          "idFood": "4",
+          "quantity": "2"
+        },
+        {
+          "idFood": "5",
+          "quantity": "2"
+        },
+        {
+          "idFood": "6",
+          "quantity": "4"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "items": [
+        {
+          "idFood": "2",
+          "quantity": 7
+        },
+        {
+          "idFood": "5",
+          "quantity": "3"
+        },
+        {
+          "idFood": "7",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "items": [
+        {
+          "idFood": "1",
+          "quantity": "2"
+        },
+        {
+          "idFood": "5",
+          "quantity": "2"
+        },
+        {
+          "idFood": "6",
+          "quantity": "2"
+        },
+        {
+          "idFood": "7",
+          "quantity": "2"
+        },
+        {
+          "idFood": "10",
+          "quantity": "1"
+        },
+        {
+          "idFood": "11",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "items": [
+        {
+          "idFood": "3",
+          "quantity": "2"
+        },
+        {
+          "idFood": "6",
+          "quantity": "2"
+        },
+        {
+          "idFood": "7",
+          "quantity": "2"
+        },
+        {
+          "idFood": "11",
+          "quantity": 2
+        },
+        {
+          "idFood": "12",
+          "quantity": "1"
+        },
+        {
+          "idFood": "1",
+          "quantity": "2"
+        },
+        {
+          "idFood": "5",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "items": [
+        {
+          "idFood": "1",
+          "quantity": "2"
+        },
+        {
+          "idFood": "2",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "items": [
+        {
+          "idFood": "7",
+          "quantity": "1"
+        },
+        {
+          "idFood": "8",
+          "quantity": "1"
+        },
+        {
+          "idFood": "12",
+          "quantity": "1"
+        }
+      ]
+    }
+  ],
+  "bills": [
+    {
+      "id": "4d4b",
+      "idTable": "6",
+      "total": 775,
+      "time": "2025-08-13T11:50:53.210Z"
+    },
+    {
+      "id": "02bf",
+      "idTable": "8",
+      "total": 624,
+      "time": "2025-08-13T11:51:32.588Z"
+    },
+    {
+      "id": "896f",
+      "idTable": "1",
+      "total": 791,
+      "time": "2025-08-13T12:01:03.444Z"
+    },
+    {
+      "id": "faa5",
+      "idTable": "2",
+      "total": 544,
+      "time": "2025-08-15T08:52:11.405Z"
+    },
+    {
+      "id": "7bd0",
+      "idTable": "7",
+      "total": 336,
+      "time": "2025-08-15T11:21:17.596Z"
+    },
+    {
+      "id": "108c",
+      "idTable": "8",
+      "total": 1340,
+      "time": "2025-08-15T11:21:20.123Z"
+    },
+    {
+      "id": "3c1f",
+      "idTable": "12",
+      "total": 576,
+      "time": "2025-08-15T11:21:22.156Z"
+    },
+    {
+      "id": "24cf",
+      "idTable": "1",
+      "total": 1206,
+      "time": "2025-08-15T11:21:23.876Z"
+    },
+    {
+      "id": "cd3e",
+      "idTable": "2",
+      "total": 544,
+      "time": "2025-08-15T11:21:25.620Z"
+    },
+    {
+      "id": "a2c5",
+      "idTable": "3",
+      "total": 719,
+      "time": "2025-08-15T11:21:45.587Z"
+    },
+    {
+      "id": "21b6",
+      "idTable": "5",
+      "total": 204,
+      "time": "2025-08-15T11:22:11.019Z"
+    },
+    {
+      "id": "00c5",
+      "idTable": "6",
+      "total": 775,
+      "time": "2025-08-15T11:22:12.563Z"
+    }
+  ],
+  "account": [
+    {
+      "id": "aa4d",
+      "username": "nhi123",
+      "email": "nhihoai0510@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "b06d",
+      "username": "hhhh",
+      "email": "thaomyphan67890@gmail.com",
+      "password": "123"
+    }
+  ]
+}
